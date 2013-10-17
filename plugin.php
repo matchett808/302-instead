@@ -1,11 +1,11 @@
 <?php
   /*
-Plugin Name: 302 Instead
-Plugin URI: https://github.com/EpicPilgrim/302-instead
-Description: Send a 302 (temporary) redirect instead of 301 (permanent) for sites where shortlinks may change
-Version: 1.2
-Author: BrettR
-Author URI: https://github.com/EpicPilgrim/302-instead
+Plugin Name: 301 Instead
+Plugin URI: https://github.com/matchett808/301-instead
+Description: 
+Version: 0.1
+Author: Iain Matchett
+Author URI: 
   */
 
 yourls_add_action('pre_redirect','temp_instead_function');
