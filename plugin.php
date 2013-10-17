@@ -12,8 +12,8 @@ yourls_add_action('pre_redirect','temp_instead_function');
 function temp_instead_function($args) {
   $url  = $args[0];
   $code = $args[1];
-  if ($code != 302) {
+  if ($code != 301) {
     // Redirect with 302 instead
-    yourls_redirect($url,302);
+    yourls_redirect($url,301);
   }
 }
